@@ -11,8 +11,10 @@ Welcome to the Web Learning Project! This project is designed to help you learn 
      - Learn the essential HTML elements and how to create a basic HTML document.
    - HTML Layout
      - Explore the structure of an HTML document, including headings, paragraphs, and sections.
+     - i.e. <p> Paragraph </p>, <h1> Heading 1</h1> <section> Section </section>
    - HTML Editors
      - Discover popular HTML editors for creating and editing web content.
+     - i.e. Visual Studio Code, Web Storm, Sublime 
    - HTML Comments
      - Learn how to add comments to your HTML code for documentation and readability.
 
@@ -31,8 +33,6 @@ Welcome to the Web Learning Project! This project is designed to help you learn 
      - Understand the `<hr>` tag and how it's used to create horizontal rules (dividers) in HTML.
    - HTML `<br>` Tag
      - Learn about the `<br>` tag for line breaks within text content.
-
-3. HTML Block and Inline Elements
    - HTML Links
      - Discover HTML links, including anchor (`<a>`) elements, and learn how to create hyperlinks.
    - HTML Images
@@ -40,7 +40,7 @@ Welcome to the Web Learning Project! This project is designed to help you learn 
    - HTML Iframes
      - Learn about iframes in HTML, which are used to embed external web content within a page.
 
-4. HTML Attributes
+3. HTML Attributes
    - HTML Class Attribute
      - Understand the class attribute and its role in styling and identifying HTML elements.
    - HTML Id Attributes
@@ -56,7 +56,7 @@ Welcome to the Web Learning Project! This project is designed to help you learn 
    - HTML alt attribute
      - Learn about the alt attribute used with images to provide alternative text for accessibility.
 
-5. HTML Lists
+4. HTML Lists
    - HTML `<ol>` Tag
      - Explore the ordered list (`<ol>`) tag in HTML, used for creating numbered lists.
    - HTML `<ul>` Tag
@@ -66,7 +66,7 @@ Welcome to the Web Learning Project! This project is designed to help you learn 
    - Unordered, Ordered, and Description Lists in HTML
      - Compare and contrast the usage of unordered, ordered, and description lists in HTML.
 
-6. HTML Input Field and Forms
+5. HTML Input Field and Forms
    - HTML input Tag
      - Discover the HTML input tag used for creating various types of form input fields.
    - HTML form Tag
@@ -76,7 +76,7 @@ Welcome to the Web Learning Project! This project is designed to help you learn 
    - HTML Forms
      - Explore the creation and usage of HTML forms for user data input and submission.
 
-7. HTML Tables
+6. HTML Tables
    - HTML Tables
      - Learn about HTML tables and how they can be used to organize data in rows and columns.
    - HTML thead Tag
@@ -88,13 +88,13 @@ Welcome to the Web Learning Project! This project is designed to help you learn 
    - HTML tr Tag
      - Explore the tr tag, which represents table rows within an HTML table.
 
-8. HTML Graphics
+7. HTML Graphics
    - HTML SVG-Basics
      - Explore the basics of Scalable Vector Graphics (SVG) in HTML for creating vector images.
    - HTML Canvas Complete Reference
      - Learn about the HTML canvas element and its API for drawing graphics and animations.
 
-9. HTML Media
+8. HTML Media
    - HTML media attribute
      - Understand how to use media attributes for embedding multimedia content.
    - HTML5 Video
@@ -102,7 +102,7 @@ Welcome to the Web Learning Project! This project is designed to help you learn 
    - HTML5 `<audio>` Tag
      - Explore the HTML5 `<audio>` tag for embedding and playing audio content.
 
-10. HTML 5 MathML
+9. HTML 5 MathML
    - HTML5 MathML Introduction
      - Get an introduction to HTML5 MathML and its role in rendering mathematical content.
    - HTML5 MathML `<math>` tag
