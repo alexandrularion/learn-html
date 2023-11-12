@@ -14,13 +14,73 @@
  -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The tile of the page</title>
-</head>
-<body>
-    <p> This is a paragraph element within a tag </p>
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <p>Do you remember me? 😎</p>
+    <!-- Math expression using <math> tag -->
+    <math>
+      <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msup>
+      <mo>+</mo>
+      <msup>
+        <mi>y</mi>
+        <mn>2</mn>
+      </msup>
+      <mo>=</mo>
+      <msup>
+        <mi>z</mi>
+        <mn>2</mn>
+      </msup>
+    </math>
 
+    <!-- Using <mmultiscripts> tag for multiple scripts -->
+    <mmultiscripts>
+      <mi>A</mi>
+      <mprescripts />
+      <none />
+      <none />
+      <mn>1</mn>
+      <mi>j</mi>
+    </mmultiscripts>
+
+    <!-- Using <semantics> tag for mathematical semantics -->
+    <math>
+      <semantics>
+        <mrow>
+          <msup>
+            <mi>x</mi>
+            <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+            <mi>y</mi>
+            <mn>2</mn>
+          </msup>
+          <mo>=</mo>
+          <msup>
+            <mi>z</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+      </semantics>
+    </math>
+
+    <!-- Using <math> tag with attributes notation and movablelimits -->
+    <math notation="prefix">
+      <mi>lim</mi>
+      <mo movablelimits="true">&sum;</mo>
+      <mrow>
+        <mi>n</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+      </mrow>
+      <mi>n</mi>
+    </math>
+  </body>
+</html>
