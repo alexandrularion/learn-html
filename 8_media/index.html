@@ -8,13 +8,23 @@
  -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The tile of the page</title>
-</head>
-<body>
-    <p> This is a paragraph element within a tag </p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media using native elements</title>
+  </head>
+  <body>
+    <p>Happy puppy video!</p>
+    <video width="1200" height="700" controls autoplay loop muted>
+      <source src="assets/puppy.mp4" type="video/mp4" />
+      <source src="assets/puppy.ogg" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video>
+    <p>Los Del Rio - Macarena (Bayside Boys Remix) Song</p>
+    <audio controls autoplay muted loop>
+      <source src="assets/macarena.ogg" type="audio/ogg" />
+      <source src="assets/macarena.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </body>
 </html>
-
