@@ -1,0 +1,76 @@
+<!-- 
+    HTML Tables
+        Learn about HTML tables and how they can be used to organize data in rows and columns.
+    HTML thead Tag
+        Discover the thead tag, which defines the header section of an HTML table.
+    HTML tbody Tag
+        Understand the tbody tag for defining the body section of an HTML table.
+    HTML | <td> Tag
+        Learn about the <td> tag for defining table data cells within an HTML table.
+    HTML tr Tag
+        Explore the tr tag, which represents table rows within an HTML table.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    td,
+    th {
+      border: 1px solid grey;
+      padding: 10px 50px;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is fans title</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" style="font-size: 20px">Home</a>
+      <a href="about.html" style="font-size: 20px">About</a>
+      <a href="news.html" style="font-size: 20px">News</a>
+      <a href="contact.html" style="font-size: 20px">Contact</a>
+      <a href="fans.html" style="font-size: 20px">Fans</a>
+    </nav>
+    <hr />
+    <h1>Fans Page</h1>
+    <hr />
+    <h2>People who visit this site daily</h2>
+    <table>
+      <caption>
+        1873 people visited this site.
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Visits</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Emil</td>
+          <td>23</td>
+          <td>2300</td>
+        </tr>
+        <tr>
+          <td>Linus</td>
+          <td>18</td>
+          <td>1999</td>
+        </tr>
+        <tr>
+          <td>Nicolas</td>
+          <td>30</td>
+          <td>129</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">
+            Last vist was a few minutes ago made by Christopher.
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

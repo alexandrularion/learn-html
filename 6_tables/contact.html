@@ -1,0 +1,53 @@
+<!-- 
+    HTML Tables
+        Learn about HTML tables and how they can be used to organize data in rows and columns.
+    HTML thead Tag
+        Discover the thead tag, which defines the header section of an HTML table.
+    HTML tbody Tag
+        Understand the tbody tag for defining the body section of an HTML table.
+    HTML | <td> Tag
+        Learn about the <td> tag for defining table data cells within an HTML table.
+    HTML tr Tag
+        Explore the tr tag, which represents table rows within an HTML table.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is contact title</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" style="font-size: 20px">Home</a>
+      <a href="about.html" style="font-size: 20px">About</a>
+      <a href="news.html" style="font-size: 20px">News</a>
+      <a href="contact.html" style="font-size: 20px">Contact</a>
+      <a href="fans.html" style="font-size: 20px">Fans</a>
+    </nav>
+    <hr />
+    <h1>Contact Page</h1>
+    <hr />
+    <h2>Do you still have questions? Write us a message.</h2>
+    <form id="contact__form">
+      <div>
+        <label for="name">Your Name</label>
+        </br>
+        <input id="name" type="text" placeholder="Enter your name" form="contact__form" required pattern=".{3,}" title="3 characters minimum"/>
+      </div>
+      <br />
+      <div>
+        <label for="email">Your Email</label>
+        </br>
+        <input id="email" type="email" placeholder="Enter your email" form="contact__form" required/>
+      </div>
+      <br />
+      <div>
+        <label for="message">Your Message</label>
+        </br>
+        <textarea id="message" type="email" form="contact__form">Write here your message.</textarea>
+      </div>
+      <button type="submit">Send message</button>
+    </form>
+  </body>
+</html>
